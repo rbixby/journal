@@ -9,6 +9,8 @@ import (
 
 func main() {
 	http.HandleFunc("/", handlers.IndexHandler)
+	http.HandleFunc("/edit/", handlers.EditHandler)
+	http.HandleFunc("/save/", handlers.SaveHandler)
 
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }

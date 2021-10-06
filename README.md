@@ -7,4 +7,9 @@ project is to have an app that I can run on a thumb drive and store the data loc
 
 - [ ] Basic editing functionality.
 - [ ] Basic authentication, username and password
-- [ ] What else
+- [ ] Re-usable plugable template fragments
+- [ ] Categories
+- [ ] Make the data store configurable.
+- [ ] Look into SQLLite or binary file formats.
+- [ ] Entries sorted by date.
+- [ ] Entries listed by year/month/day in tree format.
